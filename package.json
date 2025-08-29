@@ -1,0 +1,19 @@
+{
+  "name": "stripe-payment-monitor",
+  "version": "1.0.0",
+  "description": "Monitors Stripe failed payments",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "stripe": "^14.15.0",
+    "googleapis": "^130.0.0",
+    "airtable": "^0.12.2",
+    "body-parser": "^1.20.2"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
